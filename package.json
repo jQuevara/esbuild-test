@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "esbuild": "^0.14.49",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build:development": "node config/development.js",
+    "build:production": "node config/production.js"
+  },
+  "name": "esbuild-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "holla1144",
+  "license": "MIT"
+}
